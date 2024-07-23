@@ -113,12 +113,12 @@ class DiagonalizedMatrix{
 
 signed main(){
 
-    UndiagonalizedMatrix undiagonalized_matrix(2);
-    undiagonalized_matrix.calculate(4500);
+    UndiagonalizedMatrix undiagonalized_matrix(/*階數*/);
+    undiagonalized_matrix.calculate(/*冪次*/);
 
-    DiagonalizedMatrix diagonalized_matrix(2);
+    DiagonalizedMatrix diagonalized_matrix(/*階數*/);
     diagonalized_matrix.diagonalize();
-    diagonalized_matrix.caluclate(4500,fastPower);
+    diagonalized_matrix.caluclate(/*冪次*/,fastPower);
 
     return 0;
 }
